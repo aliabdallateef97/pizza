@@ -1,0 +1,26 @@
+.PizzaControls{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin:30px auto 0;
+    background-color: #ff7f505c;
+    padding: 20px 0;
+}
+.PizzaControls p{
+    font-size: 22px;
+}
+.order{
+    padding: 10px 15px;
+    margin: 30px 0 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: coral;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.order:disabled{
+    background-color: #AC9980;
+    cursor: not-allowed;
+}

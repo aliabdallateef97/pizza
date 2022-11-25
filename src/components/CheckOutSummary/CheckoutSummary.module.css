@@ -1,0 +1,19 @@
+.checkout{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.btn{
+    padding: 10px 15px;
+    margin: 20px ;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: #AC9980;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+h1{
+    color: white;
+}

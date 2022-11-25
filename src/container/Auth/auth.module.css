@@ -1,0 +1,76 @@
+.box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.auth{
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.356);
+    border-radius: 10px;
+}
+h1{
+    color: white;
+}
+.btn{
+        padding: 10px 15px;
+        margin: 20px ;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        background-color: #AC9980;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+}
+.btn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(172, 45, 45);
+}
+
+@media(max-width:767px){
+    .auth{
+        width: 80%;
+    }
+}
+.Change{
+    color: white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+.error{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: -100px;
+    margin: auto;
+    border: 1px solid rgb(17, 15, 15);
+    transition: 0.5s;
+    background-color: white;
+}
+ .active{
+    animation: messageError 5s  alternate  ease-out;
+}
+
+@keyframes messageError {
+    0%{
+        transform: translateY(0);
+    }
+    20%{
+        transform: translateY(200px);
+    }
+    60%{
+        transform: translateY(200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

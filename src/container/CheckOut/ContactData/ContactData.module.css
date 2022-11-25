@@ -1,0 +1,26 @@
+.ContactData{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.ContactData h3{
+    color: white;
+}
+.ContactData .btn{
+        padding: 10px 15px;
+        margin: 20px ;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        background-color: #AC9980;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+}
+.ContactData .btn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(172, 45, 45);
+}
+.ContactData form{
+    width: 90%;
+    margin: auto;
+}

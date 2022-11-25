@@ -1,0 +1,17 @@
+.Input{
+    display: block;
+    margin: 20px auto;
+    width: 70%;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.Input:focus{
+    background-color: #b9a1a1f5;
+    color: white;
+}
+.InputInvalid{
+    border: 1px solid red;
+    background-color: rgb(247, 138, 138);
+}

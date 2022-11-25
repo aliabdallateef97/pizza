@@ -1,0 +1,17 @@
+.Modal{
+    width: 40%;
+    padding: 10px;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    border-radius: 10px;
+    z-index: 20;
+    transition: 0.3s;
+    background-color: #fff;
+}
+@media(max-width:767px){
+    .Modal{
+        width: 70%;
+    left: 10%;
+    }
+}

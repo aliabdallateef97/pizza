@@ -1,0 +1,242 @@
+
+  .corn{
+    width:50%;
+    height:50%;
+   position:absolute
+  }
+  .corn .corn1,
+  .corn .corn2,
+  .corn .corn3,
+  .corn .corn4,
+  .corn .corn5,
+  .corn .corn6,
+  .corn .corn7,
+  .corn .corn8,
+  .corn .corn9,
+  .corn .corn10{
+   position:absolute;
+    width:9%;
+    height:9%;
+    background-color:#dfdf3c;
+    border-radius:5px;
+  }
+  .corn .corn1{
+    top: 76%;
+    left: 20%;
+  }
+  .corn .corn2{
+    top: 54%;
+    left: 30%;
+  }
+  .corn .corn3{
+    top: 20%;
+    right: 20%;
+  }
+  .corn .corn4{
+    top: 54%;
+    right: 40%;
+  }
+  .corn .corn5{
+    top: 84%;
+    right: 30%;
+  }
+  .corn .corn6{
+    top: 64%;
+    left: 80%;
+  }
+  .corn .corn7{
+    top: 30%;
+    left: 50%;
+  }
+  .corn .corn8{
+    top: 34%;
+    right: 10%;
+  }
+  .corn .corn9{
+   top: 85%;
+   left: 36%;
+  }
+  .corn .corn10{
+   top: 85%;
+     left: 83%;
+  }
+  
+  .vegetable{
+    width:50%;
+   height:50%;
+  position:absolute
+ }
+ .vegetable .onion1,
+ .vegetable .onion2,
+ .vegetable .onion3,
+ .vegetable .onion4{
+     position: absolute;
+     width: 15%;
+     height: 15%;
+     border-radius: 50%;
+     
+ }
+ .vegetable .onion1::after,
+ .vegetable .onion2::after,
+ .vegetable .onion3::after,
+ .vegetable .onion4::after{
+   content:"";
+   position:absolute;
+   width:25%;
+   height:25%;
+   background-color:white;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%)
+ }
+ .vegetable .onion1{
+  top: 50%;
+    left: 65%;
+    background-color: #008000d4
+ }
+ .vegetable .onion2{
+  top: 55%;
+  left: 27%;
+  background-color: #008000d4;
+ }
+ .vegetable .onion3{
+  top: 65%;
+  left: 50%;
+  background-color: #463939;
+ }
+ .vegetable .onion4{
+  top: 26%;
+  left: 57%;
+  background-color: #463939
+ }
+ 
+ .vegetable .tomato1,
+ .vegetable .tomato2,
+ .vegetable .tomato3{
+   position:absolute;
+   width:15%;
+     height:30%;
+   background-color:red;
+   border-radius: 0 50px 50px 0;
+ }
+ .vegetable .tomato1{
+  top: 70%;
+  transform: rotate(145deg);
+  left: 20%;
+ }
+ .vegetable .tomato2{
+  top: 67%;
+  transform: rotate(-50deg);
+  left: 80%
+ }
+ .vegetable .tomato3{
+  top: 12%;
+  transform: rotate(-51deg);
+  left: 80%;
+ }
+ 
+ .vegetable .papper1,
+ .vegetable .papper2,
+ .vegetable .papper3{
+  position: absolute;
+    width: 10%;
+    height: 25%;
+    border-radius: 50%;
+    border: 5px solid green;
+ }
+ .vegetable .papper1{
+  top: 36%;
+  left: 42%;
+  transform: rotate(-50deg)
+ }
+ .vegetable .papper2{
+  top: 72%;
+  left: 52%;
+  transform: rotate(80deg);
+ }
+ .vegetable .papper3{
+  top: 40%;
+  left: 80%
+ }
+ 
+  
+  .pepperoni{
+    width:50%;
+    height:50%;
+   position:absolute
+  }
+  .pepperoni .pepperoni1,
+  .pepperoni .pepperoni2,
+  .pepperoni .pepperoni3{
+      position: absolute;
+      width: 30%;
+      height: 30%;
+      border-radius: 50%;
+      background: linear-gradient(#bf3813, #c45e38);
+  }
+  .pepperoni .pepperoni1{
+    top: 60%;
+    left: 20%;
+  }
+  .pepperoni .pepperoni2{
+      top: 20%;
+      left: 60%;
+  }
+  .pepperoni .pepperoni3{
+    top: 65%;
+    left: 65%;
+  }
+  
+  .mushroom{
+    width:50%;
+    height:50%;
+   position:absolute
+  }
+  .mushroom .mushroom1,
+  .mushroom .mushroom2,
+  .mushroom .mushroom3,
+  .mushroom .mushroom4,
+  .mushroom .mushroom5{
+      position: absolute;
+      transform: rotate(-45deg);
+      width: 20%;
+      height: 12%;
+      border-radius: 50% 50% 0 0;
+      background-color: #ffeb3bcc;
+  }
+  .mushroom .mushroom1::after,
+  .mushroom .mushroom2::after,
+  .mushroom .mushroom3::after,
+  .mushroom .mushroom4::after,
+  .mushroom .mushroom5::after{
+    content:"";
+    position:absolute;
+    top:100%;
+    left:50%;
+   transform:translatex(-50%);
+    width:50%;
+    height:60%;
+    background-color:#fff
+  }
+  .mushroom .mushroom1{
+    top: 70%;
+    left: 20%;
+  }
+  .mushroom .mushroom2{
+    top: 40%;
+    left: 40%
+  }
+  .mushroom .mushroom3{
+    top: 25%;
+    left: 70%
+  }
+  .mushroom .mushroom4{
+    top: 78%;
+    left: 55%
+  }
+  .mushroom .mushroom5{
+    top: 58%;
+    left: 75%;
+  }
+
+ 

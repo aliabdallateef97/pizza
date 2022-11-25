@@ -1,0 +1,29 @@
+
+.Menu{
+    display: none;
+}
+
+@media(max-width:767px){
+    .Menu{
+        height: 70%;
+        width: 40px;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    .Menu span{
+        display: block;
+        width: 80%;
+        height: 5px;
+        background-color: #fff;
+        border-radius: 2px;
+    }
+    .Menu span:not(:last-of-type){
+        margin-bottom: 5px;
+    }
+}

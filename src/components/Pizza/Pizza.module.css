@@ -1,0 +1,51 @@
+.pizza{
+    width:350px;
+    height:350px;
+    margin:auto;
+  }
+  @media(max-width:767px){
+    .pizza{
+        width:250px;
+        height:250px;
+      }
+  }
+  @media(max-width:450px){
+    .pizza{
+        width:200px;
+        height:200px;
+      }
+  }
+  .dough{
+    width:100%;
+    height:100%;
+     background: linear-gradient(#bc581e, #e27b36);
+    box-shadow: inset -15px 10px 0 #89421470;
+    border-radius:50%;
+     display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    /* transform:rotate(45deg); */
+  }
+  .dough::after{
+    content:"";
+    position:absolute;
+    width:3px;
+    height:100%;
+    background-color:#eeeeee59;
+  }
+  .dough::before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:3px;
+    background-color:#eeeeee59;
+  }
+  .cheese{
+    width:85%;
+    height:85%;
+    background: linear-gradient(#f4d004, #d6bb22);
+    border-radius:50%
+  }
+
+  

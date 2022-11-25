@@ -1,0 +1,33 @@
+.SideDrwer{
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 70%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    z-index: 11;
+    transition: 0.3s;
+}
+
+.Logo{
+    height: 20%;
+    
+}
+
+@media(min-width:768px){
+    .SideDrwer{
+        display: none;
+    }
+}
+
+.Open{
+    transform: translateX(0);
+}
+
+.Close{
+    transform: translateX(-100%);
+}
+
